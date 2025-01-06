@@ -161,6 +161,7 @@
   text-align: left;
   color: #9394A5;
   background: #FFFFFF;
+  border-radius: 10px;
   padding: 16px 200px 16px 16px;
   border-radius: 10px;
   border: none;
@@ -178,6 +179,9 @@
   gap: 20px;
   padding: 6px 0 15px 0;
 }
+.background .container main .download .stars {
+  padding-left: 15px;
+}
 .background .container main .downloading {
   border-radius: 10px;
   background-color: #5E8DEA;
@@ -185,11 +189,18 @@
   border: none;
   color: #FFFFFF;
   cursor: pointer;
+  margin-left: 15px;
 }
 .background .container main .downloading:hover {
   background-color: #1b57d0;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+.background .container main .subway {
+  background-color: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(281px);
+          backdrop-filter: blur(281px);
+  border-radius: 10px;
 }
 .background .container main .subway .surfers:hover {
   scale: 1.007;
@@ -201,6 +212,7 @@
   font-size: 15px;
   font-weight: 600;
   line-height: 17.1px;
+  padding-left: 15px;
   color: #050729;
 }
 .background .container_2 {
@@ -249,7 +261,11 @@
   transition: all 0.3s ease;
 }
 .background aside {
+  padding-top: 55px;
   position: fixed;
+  right: 40px;
+  height: 100vh;
+  top: 0;
   right: 40px;
 }
 .background aside .sohag {
