@@ -261,7 +261,7 @@
   transition: all 0.3s ease;
 }
 .background aside {
-  padding-top: 55px;
+  padding-top: 43px;
   position: fixed;
   right: 40px;
   height: 100vh;
@@ -271,6 +271,8 @@
 .background aside .sohag {
   display: flex;
   gap: 37px;
+  align-items: center;
+  justify-content: center;
 }
 .background aside .sohag .notes {
   display: flex;
@@ -281,4 +283,80 @@
   border: none;
   border-radius: 10px;
   background-color: #FFFFFF;
+}
+.background aside .history {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 39px;
+  padding-top: 29px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(281px);
+          backdrop-filter: blur(281px);
+}
+.background aside .history .experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+.background aside .history button {
+  padding: 8px 12px;
+  color: rgb(94, 141, 234);
+  font-family: Linux Libertine;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.4px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(250, 249, 254);
+}
+.background aside .history button:hover {
+  background-color: #d5e0f0;
+  cursor: pointer;
+}
+.background aside .download {
+  display: flex;
+  gap: 20px;
+  padding: 6px 0 15px 0;
+}
+.background aside .download .stars {
+  padding-left: 15px;
+}
+.background aside .downloading {
+  border-radius: 10px;
+  background-color: #5E8DEA;
+  padding: 8px 100px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.background aside .downloading:hover {
+  background-color: #1b57d0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.background aside .subway {
+  background-color: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(281px);
+          backdrop-filter: blur(281px);
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin-top: 25px;
+}
+.background aside .subway .surfers:hover {
+  scale: 1.007;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.background aside .subway .px_15 {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17.1px;
+  padding-left: 15px;
+  color: #050729;
 }/*# sourceMappingURL=style.css.map */

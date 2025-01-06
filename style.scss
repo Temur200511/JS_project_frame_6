@@ -187,6 +187,7 @@ color: #050729;
             text-align: left;
  color: #9394A5;
  background: #FFFFFF;
+ border-radius: 10px;
 padding: 16px 200px 16px 16px;
 border-radius: 10px;
 border: none;
@@ -207,6 +208,10 @@ box-shadow: 2px 19px 31px 0px #0000001A;
             display: flex;
             gap: 20px;
             padding: 6px 0 15px 0;
+
+            .stars{
+                padding-left: 15px;
+            }
         }
 
         .downloading{
@@ -216,7 +221,8 @@ box-shadow: 2px 19px 31px 0px #0000001A;
             border: none;
             color: #FFFFFF;
             cursor: pointer;
-
+            margin-left: 15px;
+            
             &:hover{
                 background-color: #1b57d0;
                 cursor: pointer;
@@ -225,6 +231,9 @@ box-shadow: 2px 19px 31px 0px #0000001A;
         }
    
     .subway{
+       background-color: rgba(255, 255, 255, 1);
+       backdrop-filter: blur(281px);
+       border-radius: 10px;
 
         .surfers{
             &:hover{
@@ -239,7 +248,7 @@ box-shadow: 2px 19px 31px 0px #0000001A;
 font-size: 15px;
 font-weight: 600;
 line-height: 17.1px;
-
+padding-left: 15px;
 color: #050729;
         }
     }
@@ -311,13 +320,17 @@ color: #050729;
 }
 
 aside{
-
+   padding-top: 43px;
     position: fixed;
     right: 40px;
-
+height: 100vh;
+     top: 0;
+     right: 40px;
     .sohag{
         display: flex;
     gap: 37px;
+    align-items: center;
+    justify-content: center;
 
     .notes{
         display: flex;
@@ -331,5 +344,99 @@ aside{
         }
     }
     }
+
+    .history{
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 39px;
+        padding-top: 29px;
+        padding-bottom: 25px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 1);
+        backdrop-filter: blur(281px);
+
+        // .experiences{
+        //     padding: 0 41px 0 34px;
+        
+        // }
+
+       .experience{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 19px;
+ 
+       }
+
+        button{
+            padding: 8px 12px;
+            color: rgba(94, 141, 234, 1);
+            font-family: Linux Libertine;
+font-size: 10px;
+font-weight: 400;
+line-height: 11.4px;
+border-radius: 10px;
+border: none;
+background-color: rgba(250, 249, 254, 1);
+
+            &:hover{    
+                background-color: #d5e0f0;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .download{
+        display: flex;
+        gap: 20px;
+        padding: 6px 0 15px 0;
+
+        .stars{
+            padding-left: 15px;
+        }
+    }
+
+    .downloading{
+        border-radius: 10px;
+        background-color: #5E8DEA;
+        padding: 8px 100px;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-left: 15px;
+        
+        &:hover{
+            background-color: #1b57d0;
+            cursor: pointer;
+            transition: all .3s ease;
+        }
+    }
+    .subway{
+        background-color: rgba(255, 255, 255, 1);
+        backdrop-filter: blur(281px);
+        border-radius: 10px;
+ padding-bottom: 30px;
+ margin-top: 25px;
+         .surfers{
+             &:hover{
+                 scale: 1.007;
+                 cursor: pointer;
+                 transition: all .3s ease;
+             }
+         }
+ 
+         .px_15{
+            padding-top: 15px;
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 17.1px;
+ padding-left: 15px;
+ color: #050729;
+         }
+     }
+    
 }
 }
